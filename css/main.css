@@ -1,21 +1,37 @@
 .top {
     border-color: #e7e7e7;
-    border-bottom: solid 5px #a94442;
+    
     padding-top: 10px;
 }
+.menu {
+    min-height: 50px;
+}
 .menu ul {
-    list-style-type:none;
-    padding:0px;
-    margin:0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9c1010;
+    height: 5rem;
 }
 .menu ul li {
     display:inline;
+    float: center;
+}
+.menu ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 9px 50px;
+    text-decoration: none;
+}
+.menu ul li a.active {
+    background-color: #4CAF50;
 }
 .menu ul a {
     text-decoration:none;
-    width:31.7rem;
     float:left;
-    background:#9c1010;
+    background:;
     color:#fff;
     font-weight:bold;
     text-align:center;
@@ -239,10 +255,10 @@ span.menu {
 }
 
 .space {
-	padding-bottom: 12em;
+    padding-bottom: 12em;
 }
 
-.abc {		 
+.abc {       
      width: 50px;
     height: 50px;
     -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
@@ -254,8 +270,8 @@ span.menu {
 }
 
 .abc:hover{
-	 width: 600px;
-	 height: 300px;
+     width: 600px;
+     height: 300px;
 
 }
 /*---------start-about.html-------*/
@@ -337,8 +353,8 @@ span.menu {
     text-align: center;
 }
 .about-logo h3{
-	text-align: center;
-	color: #fff;
+    text-align: center;
+    color: #fff;
 }
 .about-who {
     margin-top: 30px;
