@@ -1,16 +1,45 @@
 .top {
-	border-color: #e7e7e7;
-	border-top: solid 10px #9c1010;
-	border-bottom: solid 10px #9c1010;
+    border-color: #e7e7e7;
+    border-bottom: solid 5px #a94442;
     padding-top: 10px;
 }
 .footer {
-	font-size: 16px;
-	background: #9c1010;
+    background: #555;
     display: inline;
     float: left;
     padding: 50px 0;
     width: 100%;
+}
+
+.footer-left ul {
+  padding: 0;
+  margin: 0;
+}
+.footer-left ul li {
+    display: block;
+     font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+}
+.footer-left ul li:nth-child(2),.footer-left ul li:nth-child(3) {
+  font-weight: 100;
+  color: #ebebeb;
+}
+.footer-left ul li a{
+    color: #fff;
+    text-decoration:none;
+    font-weight:400;
+}
+.footer-left ul li a:hover{
+    color: #f1df1a;
+}
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    color: #fff;
 }
 .h4, h4 {
     color: #fff;
@@ -23,7 +52,8 @@
 #mu-service {
     display: inline;
     float: left;
-    
+    margin-top: 10em;
+    margin-bottom: 10em;
     width: 100%;
 }
 #mu-service .mu-service-area {
@@ -66,7 +96,7 @@ width: 33.33%;
 
 }
 #mu-abtus-counter {
-    background-color: #01bafd;
+    background-color: #d05552;
     display: inline;
     float: left;
     padding: 100px 0;
@@ -155,12 +185,6 @@ span.menu {
     transform: translateY(-100%);
     color:red;
 }
-address {
-    margin-bottom: 20px;
-    font-style: normal;
-    line-height: 1.42857143;
-    color: #337ab7;
-}
 .tintuc {
     margin: 20px auto;
     font-size: 24px;
@@ -191,23 +215,16 @@ address {
 .space {
 	padding-bottom: 12em;
 }
-.abc {
-	
 
-	 
+.abc {		 
      width: 50px;
     height: 50px;
     -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 4s;
-    
-
-    
     position: absolute;
-  	
     z-index: 0;
    font-size: 60px;
-    color: rgba(0,0,0,0.15);
-    
+    color: rgba(0,0,0,0.15);   
 }
 
 .abc:hover{
@@ -215,9 +232,10 @@ address {
 	 height: 300px;
 
 }
+/*---------start-about.html-------*/
 .who{
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     position: relative;
     cursor: default;
@@ -232,8 +250,18 @@ address {
     box-shadow: inset 0 0 0 110px rgba(200,95,66, 0.4), inset 0 0 0 16px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.1);
 }
 .who-behind-photo1{
-    background-image: url(../images/nguyenthanhdat1.jpg);
+    background-image: url(../images/nguyenthanhdat11.jpg);
 }
+.who-behind-photo2{
+    background-image: url(../images/nguyenhoangphuc.jpg);
+}
+.who-behind-photo3{
+    background-image: url(../images/dominhduc.jpg);
+}
+.who-behind-photo4{
+    background-image: url(../images/caonhattriet.jpg);
+}
+
 .tn{
     position: absolute;
     width: 100%;
@@ -264,8 +292,8 @@ address {
     color: #fff;
     text-transform: uppercase;
     position: relative;
-    letter-spacing: 4px;
-    font-size: 8px;
+    letter-spacing: 1px;
+    font-size: 7px;
     margin: -1px 44px;
     padding: 43px 0 0 0;
     height: 110px;
@@ -275,12 +303,12 @@ address {
 }
 .who p {
     color: #fff;
-    padding: 29px 9px;
+    padding: 1px 13px;
     font-style: italic;
-    margin: 0 20px;
-    font-size: 12px;
+    margin: -35px 21px;
+    font-size: 10px;
     border-top: 1px solid rgba(255,255,255,0.5);
-    
+    text-align: center;
 }
 .about-logo h3{
 	text-align: center;
@@ -289,22 +317,34 @@ address {
 .about-who {
     margin-top: 30px;
 }
-.about-who li{
-    width: 220px;
-    height: 220px;
+.about-who li {
+    width: 120px;
     margin: 20px;
     float: right;
     clear: right;
     display: -webkit-inline-box;
 }
 .about-who ul{
-    width: 220px;
-    height: 220px;
- 
-    float: left: 
+    width: 140px;
+  
    
 }
+.about-text-left{
+    margin-left: -259px;
+    word-wrap: break-word;
+    width: 184%;
+    height: 94%;
+}
+.about-text-left h6{
+    float: right;
+}
+.about-text-right{
+    margin-left: 142px;
+    word-wrap: break-word;
+    width: 170%;
+    height: 94%;
 
-
+}
+/*---------End-about.html-------*/
 
 ///https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
