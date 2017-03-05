@@ -244,14 +244,13 @@ span.menu {
     font-style: italic;
 }
 #sukien {
-    margin: 20px auto;
     text-align: center;
 }
 .sk {
-    font-size: 24px;
-    color: #9c1010;
+    font-size: 30pt;
     text-transform: uppercase;
     line-height: 200%;
+    padding: 10px 20px -1px 40px;
 }
 
 .space {
@@ -386,6 +385,9 @@ span.menu {
     width: 170%;
     height: 94%;
 
+}
+#counter {
+    text-transform: uppercase;
 }
 /*---------End-about.html-------*/
 
