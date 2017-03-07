@@ -58,7 +58,6 @@ h1.n-scl {
   margin: 0;
 }
 .footer-left ul li {
-    display: block;
      font-size: 16px;
     color: #fff;
     font-weight: 300;
@@ -70,9 +69,11 @@ h1.n-scl {
   color: #ebebeb;
 }
 .footer-left ul li a{
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
     color: #fff;
-    text-decoration:none;
-    font-weight:400;
+    text-decoration: none;
 }
 .footer-left ul li a:hover{
     color: #f1df1a;
@@ -114,7 +115,10 @@ address {
 }
 #mu-service-single{
 width: 33.33%;   
-
+}
+.mu-abtus-counter-single a {
+    color: #333333;
+    text-decoration: none;   
 }
 #mu-service .mu-service-area .mu-service-single:nth-child(2) {
     background-color: #2ecc71;
@@ -219,12 +223,15 @@ span.menu {
     text-transform: uppercase;
     line-height: 200%;
     padding: 10px 20px -1px 40px;
+    color: #fff;
 }
 
 .space {
     padding-bottom: 12em;
 }
-
+.even:hover{
+    color: green;
+}
 .abc {       
      width: 50px;
     height: 50px;
