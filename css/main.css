@@ -3,6 +3,12 @@
     
     padding-top: 10px;
 }
+.header-logo a {
+    display: block;
+    width: 100%
+}
+
+/*----menu------*/
 .menu {
     min-height: 50px;
 }
@@ -45,6 +51,8 @@
 h1.n-scl {
     font-size: 44px;
 }
+/*---menu----*/
+/*--foot---*/
 .footer {
     background: #555;
     display: inline;
@@ -87,11 +95,8 @@ address {
 .h4, h4 {
     color: #fff;
 }
-.header-logo a {
-    display: block;
-    width: 100%
-}
-
+/*-----foot----*/
+/*----metrobody---*/
 #mu-service {
     display: inline;
     float: left;
@@ -105,16 +110,16 @@ address {
     width: 100%;
 }
 #mu-service .mu-service-area .mu-service-single {
-    background-color: #01bafd;
+    background-color: #da3513;
     color: #fff;
     display: inline;
     float: left;
     padding: 35px 25px;
     text-align: center;
-    width: 33.33%;
-}
-#mu-service-single{
-width: 33.33%;   
+    width: 31%;
+    margin-right: 10.124px;
+    margin-left: 17px;
+    border-radius: 5px;
 }
 .mu-abtus-counter-single a {
     color: #333333;
@@ -126,8 +131,6 @@ width: 33.33%;
 #mu-service .mu-service-area .mu-service-single:nth-child(3) {
     background-color: #45a0de;
 }
-
-
 #mu-service .mu-service-area .mu-service-single1 {
     background-color: #01bafd;
     color: #fff;
@@ -135,17 +138,49 @@ width: 33.33%;
     float: left;
     padding: 35px 25px;
     text-align: center;
-    width: 33.33%;
+    width: 31%;
+    margin-right: 10.124px;
+    margin-left: 17px;
+    border-radius: 5px;
 }
-#mu-service-single{
-width: 33.33%;   
-
+#mu-service .mu-service-area .mu-service-single1:nth-child(2) {
+    background-color: #cee022;
 }
+#mu-service .mu-service-area .mu-service-single1:nth-child(3) {
+    background-color: #1d2021;
+}
+#mu-service .mu-service-area .mu-service-single2 {
+    background-color: #01bafd;
+    color: #fff;
+    display: inline;
+    float: left;
+    padding: 35px 25px;
+    text-align: center;
+    width: 31%;
+    margin-right: 10.124px;
+    margin-left: 17px;
+    border-radius: 5px;
+}
+#mu-service .mu-service-area .mu-service-single2:nth-child(2) {
+    background-color: #0d2933;
+}
+#mu-service .mu-service-area .mu-service-single2:nth-child(3) {
+    background-color: #d2197e;
+}
+/*----metrobody-----*/
+/*------Counter------*/
 #mu-abtus-counter {
     background-color: #d05552;
     display: inline;
     float: left;
     padding: 100px 0;
+    width: 100%;
+}
+#mu-abtus-counter1 {
+    background-color: #d05552;
+    display: inline;
+    float: left;
+    padding: 0px 0px 250px 0px;
     width: 100%;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single h4 {
@@ -154,12 +189,6 @@ width: 33.33%;
     font-weight: bold;
     margin-bottom: 5px;
     margin-top: 20px;
-}
-#mu-service .mu-service-area .mu-service-single1:nth-child(2) {
-    background-color: #0d2933;
-}
-#mu-service .mu-service-area .mu-service-single1:nth-child(3) {
-    background-color: #1d2021;
 }
 #mu-abtus-counter .mu-abtus-counter-area {
     display: inline;
@@ -173,30 +202,19 @@ width: 33.33%;
     text-align: center;
     width: 100%;
 }
+.mu-abtus-counter-single a:hover {
+    color: #4d4d52;
+}
+.mu-abtus-counter-single p {
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*------Counter------*/
 .top-nav {
     float: right;
    margin-top: 100px
 
-
-}
-span.menu {
-    display: none;
-}
-
-.top-nav ul li{
-    list-style-type:none;
-    display: inline-block;
-    margin: 0 1.3em;
-}   
-.top-nav ul li a {
-    position: relative;
-    display: inline-block;
-    margin: 0;
-    color: #3b3b3b;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.5px;
 
 }
 .tintuc {
@@ -227,10 +245,16 @@ span.menu {
 }
 
 .space {
-    padding-bottom: 12em;
+    padding-bottom: 10em;
 }
 .even:hover{
     color: green;
+}
+.event a {
+    color: #fff;
+}
+.event {
+    font-size: 18px;margin-top: 10px;
 }
 .abc {       
      width: 50px;
