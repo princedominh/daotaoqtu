@@ -8,41 +8,25 @@
     width: 100%
 }
 
-/*----menu------*/
-.menu {
-    min-height: 50px;
-}
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+/*--menu====*/
+.navbar-default {
     background-color: #9c1010;
-    height: 5rem;
+    border-color: #e7e7e7;
 }
-.menu ul li {
-    display:inline;
-    float: center;
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #FFF;
 }
-.menu ul li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 9px 50px;
-    text-decoration: none;
-}
-.menu ul li a.active {
-    background-color: #4CAF50;
-}
-.menu ul a {
-    text-decoration:none;
-    float:left;
-    background:;
-    color:#fff;
+.navbar-nav>li>a {
+    font-size: 15px;
     font-weight:bold;
-    text-align:center;
-    line-height:35px;
-    border-left:1px solid #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    border-left: 1px solid #fff;
+    padding: 9px 50px;
+    display: inline-block;
+    line-height: 35px;
 }
 .name {
     font-size: 2rem;
